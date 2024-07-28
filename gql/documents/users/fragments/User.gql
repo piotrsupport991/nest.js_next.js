@@ -1,0 +1,18 @@
+fragment User on users {
+  id
+  createdAt
+  displayName
+  avatarUrl
+  locale
+  email
+  isAnonymous
+  defaultRole
+  roles {
+    role
+  }
+  metadata
+  emailVerified
+  phoneNumber
+  phoneNumberVerified
+  activeMfaType
+}

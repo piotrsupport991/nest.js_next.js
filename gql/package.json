@@ -1,0 +1,19 @@
+{
+  "name": "gql",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "graphql-codegen": "./scripts/dumpMetadata.sh && npx graphql-codegen -c codegen.yml"
+  },
+  "devDependencies": {
+    "@graphql-codegen/cli": "^5.0.0",
+    "@graphql-codegen/typescript": "^4.0.1",
+    "@graphql-codegen/typescript-document-nodes": "^4.0.1",
+    "@graphql-codegen/typescript-graphql-request": "^5.0.0",
+    "@graphql-codegen/typescript-operations": "^4.0.1",
+    "@graphql-codegen/typescript-react-apollo": "^3.3.7",
+    "graphql": "^16.8.0"
+  },
+  "dependencies": {}
+}
